@@ -4,6 +4,7 @@ import mock2 from "../img/mock2.png"
 import mock3 from "../img/mock3.png"
 import mock4 from "../img/mock4.png"
 import mock5 from "../img/mock5.png"
+import mock6 from "../img/mock6.png"
 
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
 how to make this template work best for you! */
@@ -25,8 +26,8 @@ of what each of the values mean.
 export const info = {
     firstName: "Andrej",
     lastName: "Vrkljan",
-    initials: "av", // the example uses first and last, but feel free to use three or more if you like.
-    position: "Blockchain developer/Product manager",
+    initials: "AV", // the example uses first and last, but feel free to use three or more if you like.
+    position: "Blockchain developer/Product/Project manager",
     selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
     gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
     baseColor: colors[0],
@@ -37,8 +38,8 @@ export const info = {
         },
         {
             emoji: '🌎',
-            text: 'Refferences',
-            link: "https://www.linkedin.com/in/andrej-vrkljan-253212178/details/recommendations/?detailScreenTabIndex=0"
+            text: 'I am based in European Union'
+           
         },
         {
             emoji: "💼",
@@ -61,10 +62,11 @@ export const info = {
             label: 'github'
         },
         {
-            link: "https://www.linkedin.com/in/andrej-vrkljan-253212178/",
+            link: "https://www.linkedin.com/in/andrej-vrkljan-253212178/details/recommendations/?detailScreenTabIndex=0",
             icon: "fa fa-linkedin",
             label: 'linkedin'
         }
+
        
 // Feel free to remove any of these that you don't have. I'll write an FAQ on how to add new ones later, let me know if you have a request for an icon!
 // Just change the links so that they lead to your social profiles.
