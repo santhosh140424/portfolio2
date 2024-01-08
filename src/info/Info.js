@@ -23,29 +23,30 @@ of what each of the values mean.
  */
 
 export const info = {
-    firstName: "John",
-    lastName: "Smith",
-    initials: "js", // the example uses first and last, but feel free to use three or more if you like.
-    position: "a Full Stack Developer",
+    firstName: "Andrej",
+    lastName: "Vrkljan",
+    initials: "av", // the example uses first and last, but feel free to use three or more if you like.
+    position: "Blockchain developer/Product manager",
     selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
     gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
     baseColor: colors[0],
     miniBio: [ // these are just some "tidbits" about yourself. You can look at mine https://paytonjewell.github.io/#/ for an example if you'd like
         {
             emoji: '☕',
-            text: 'fueled by coffee'
+            text: 'In blocks we trust'
         },
         {
             emoji: '🌎',
-            text: 'based in the US'
+            text: 'Refferences',
+            link: "https://www.linkedin.com/in/andrej-vrkljan-253212178/details/recommendations/?detailScreenTabIndex=0"
         },
         {
             emoji: "💼",
-            text: "Systems Engineer at Google"
+            text: "Bitcoin Startup Lab"
         },
         {
             emoji: "📧",
-            text: "johnsmith@gmail.com"
+            text: "andrej.vrkljan@gmail.com"
         }
     ],
     socials: [
@@ -55,34 +56,27 @@ export const info = {
             label: 'facebook'
         },
         {
-            link: "https://instagram.com",
-            icon: 'fa fa-instagram',
-            label: 'instagram'
-        },
-        {
-            link: "https://github.com",
+            link: "https://github.com/Andrej656",
             icon: "fa fa-github",
             label: 'github'
         },
         {
-            link: "https://linkedin.com",
+            link: "https://www.linkedin.com/in/andrej-vrkljan-253212178/",
             icon: "fa fa-linkedin",
             label: 'linkedin'
-        },
-        {
-            link: "https://twitter.com",
-            icon: "fa fa-twitter",
-            label: 'twitter'
         }
+       
 // Feel free to remove any of these that you don't have. I'll write an FAQ on how to add new ones later, let me know if you have a request for an icon!
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "Hello! I'm John. I'm a systems engineer for Google. I studied CompSci at Harvard, I enjoy long walks on the beach, and I believe artificial intelligence will inevitably rule us all one day. You should hire me!",
+    bio: "👋 Hey there! I'm Andrej, a passionate developer specializing in crafting innovative Web3 applications using TypeScript, Node.js, Solidity, and Clarity. I have developed blockchain based software for digital assests tax and regulatory support, sales support platforms (crypto and goods exchange), and decentralized platforms to support social network and non-profit needs. I served as project manager several blockchain projects supervising 10+ developers in start-up environment.",
     skills:
         {
-            proficientWith: ['javascript', 'react', 'git', 'github', 'bootstrap', 'html5', 'css3', 'figma'],
-            exposedTo: ['nodejs', 'python', 'adobe illustrator']
+            proficientWith: ['javascript', 'react', "nodejs", 'git', 'bootstrap', 'html5', 'css3', "solidity", "clarity", "hardhat", "clarinet", "miro", "jira"],
+            exposedTo: ['rust', 'c', 'SCRYPT'],
+           
+
         }
     ,
     hobbies: [
@@ -91,8 +85,8 @@ export const info = {
             emoji: '📖'
         },
         {
-            label: 'theater',
-            emoji: '🎭'
+            label: 'running',
+            emoji: '🤸'
         },
         {
             label: 'movies',
@@ -107,34 +101,40 @@ export const info = {
     ],
     portfolio: [ // This is where your portfolio projects will be detailed
         {
-            title: "Project 1",
-            live: "https://paytonpierce.dev", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-            source: "https://github.com/paytonjewell", // this should be a link to the **repository** of the project, where the code is hosted.
+            title: "Taxtris",
+            live: "https://www.taxtris.com/", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+            source: "", // this should be a link to the **repository** of the project, where the code is hosted.
             image: mock1
         },
         {
-            title: "Project 2",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
+            title: "Map Of Crypto",
+            live: "https://mapofcrypto.netlify.app/",
+            source: "https://github.com/Map-of-Crypto",
             image: mock2
         },
         {
-            title: "Project 3",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
+            title: "People's",
+            live: "https://peoples.on.fleek.co/",
+            source: "https://github.com/People-s",
             image: mock3
         },
         {
-            title: "Project 4",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
+            title: "DAO Found",
+            live: "https://daofound.vercel.app/",
+            source: "https://github.com/DAOFound",
             image: mock4
         },
         {
-            title: "Project 5",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
+            title: "Optistore",
+            live: "https://ethglobal.com/showcase/optistore-egycn",
+            source: "https://github.com/Optistore",
             image: mock5
+        },
+        {
+            title: "Colomint",
+            live: "https://colomint.surge.sh/",
+            source: "https://github.com/colomint",
+            image: mock6
         }
     ]
 }
