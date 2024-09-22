@@ -27,8 +27,8 @@ of what each of the values mean.
  */
 
 export const info = {
-    firstName: "John",
-    lastName: "Smith",
+    firstName: "Danny",
+    lastName: "Hidalgo",
     initials: "js", // the example uses first and last, but feel free to use three or more if you like.
     position: "a Full Stack Developer",
     selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
@@ -41,69 +41,65 @@ export const info = {
         },
         {
             emoji: '🌎',
-            text: 'based in the US'
+            text: 'based in the Franklin TN'
         },
         {
             emoji: "💼",
-            text: "Systems Engineer at Google"
+            text: "Recent Grad from Nashville Software School"
         },
         {
             emoji: "📧",
-            text: "johnsmith@gmail.com"
+            text: "dnnysongs@gmail.com"
         }
     ],
     socials: [
         {
-            link: "https://facebook.com",
+            link: "https://www.facebook.com/daniel.hidalgo.5648/",
             icon: 'fa fa-facebook',
             label: 'facebook'
         },
         {
-            link: "https://instagram.com",
+            link: "https://www.instagram.com/dnnysongs/",
             icon: 'fa fa-instagram',
             label: 'instagram'
         },
         {
-            link: "https://github.com",
+            link: "https://github.com/DannyJamesHidalgo",
             icon: "fa fa-github",
             label: 'github'
         },
         {
-            link: "https://linkedin.com",
+            link: "https://www.linkedin.com/in/dannyhidalgo/",
             icon: "fa fa-linkedin",
             label: 'linkedin'
-        },
-        {
-            link: "https://twitter.com",
-            icon: "fa fa-twitter",
-            label: 'twitter'
         }
+        
 // Feel free to remove any of these that you don't have. I'll write an FAQ on how to add new ones later, let me know if you have a request for an icon!
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "Hello! I'm John. I'm a systems engineer for Google. I studied CompSci at Harvard, I enjoy long walks on the beach, and I believe artificial intelligence will inevitably rule us all one day. You should hire me!",
+    bio: "Hello! I'm Danny. I'm a Full-Stack Software Developer with a unique perspective from a decade-long career in the music industry, blending creativity and analytical thinking. Skilled in SQLite, Javascript, GitHub, Python, React, Django, CSS, and HTML, with strong project management and collaborative abilities. Passionate about leveraging technology to create innovative solutions for real-world problems, committed to lifelong learning and excellence in coding practices. You should hire me!",
     skills:
         {
-            proficientWith: ['javascript', 'react', 'git', 'github', 'bootstrap', 'html5', 'css3', 'figma'],
-            exposedTo: ['nodejs', 'python', 'adobe illustrator']
+            proficientWith: ['javascript', 'react', 'git', 'github', 'tailwind', 'html', 'css', 'python','SQL','django'],
+            exposedTo: ['nodejs', 'next.js']
         }
     ,
     hobbies: [
         {
-            label: 'reading',
-            emoji: '📖'
+            label: 'Songwriting',
+            emoji: '🎵'
         },
         {
-            label: 'theater',
-            emoji: '🎭'
+            label: 'Gaming',
+            emoji: '🕹️'
         },
         {
-            label: 'movies',
+            label: 'Movies',
             emoji: '🎥'
         },
         {
-            label: 'cooking',
+            label: 'Cooking',
             emoji: '🌶'
         }
 // Same as above, change the emojis to match / relate to your hobbies or interests.
@@ -111,34 +107,11 @@ export const info = {
     ],
     portfolio: [ // This is where your portfolio projects will be detailed
         {
-            title: "Project 1",
-            live: "https://paytonpierce.dev", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+            title: "Pitty Parties",
+            live: "https://pitty-party-client.vercel.app/login", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
             source: "https://github.com/paytonjewell", // this should be a link to the **repository** of the project, where the code is hosted.
             image: mock1
-        },
-        {
-            title: "Project 2",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock2
-        },
-        {
-            title: "Project 3",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock3
-        },
-        {
-            title: "Project 4",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock4
-        },
-        {
-            title: "Project 5",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock5
         }
+       
     ]
 }
