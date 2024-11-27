@@ -27,7 +27,7 @@ export const info = {
     firstName: "Andrej",
     lastName: "Vrkljan",
     initials: "AV", // the example uses first and last, but feel free to use three or more if you like.
-    position: "Blockchain developer/Product/Project manager",
+    position: "Blockchain developer",
     selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
     gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
     baseColor: colors[0],
@@ -43,7 +43,7 @@ export const info = {
         },
         {
             emoji: "💼",
-            text: "Bitcoin Startup Lab"
+            text: "Senfina Bridge"
         },
         {
             emoji: "📧",
@@ -75,7 +75,7 @@ export const info = {
     bio: "👋 Hey there! I'm Andrej, a passionate developer specializing in crafting innovative Web3 applications using TypeScript, Node.js, Solidity, and Clarity. I have developed blockchain based software for digital assests tax and regulatory support, sales support platforms (crypto and goods exchange), and decentralized platforms to support social network and non-profit needs. I served as project manager several blockchain projects supervising 10+ developers in start-up environment.",
     skills:
         {
-            proficientWith: ['javascript', 'react', "nodejs", 'git', 'bootstrap', 'html5', 'css3', "solidity", "clarity", "hardhat", "clarinet", "miro", "jira"],
+            proficientWith: ['javascript', 'react', "nodejs", 'git', 'AWS', 'html5', 'css3', "solidity", "clarity", "hardhat", "clarinet", "miro", "jira"],
             exposedTo: ['rust', 'c', 'SCRYPT'],
            
 
@@ -137,6 +137,19 @@ export const info = {
             live: "https://colomint.surge.sh/",
             source: "https://github.com/colomint",
             image: mock6
+        },
+        {
+            title: "Lumishare",
+            live: "https://lumishare.io/",
+            source: "https://github.com/Lumishare",
+            image: mock1
+        },
+        {
+            title: "BlockCity",
+            live: "https://blockcity-ui-xi.vercel.app",
+            source:"https://github.com/Andrej656/blockcity-ui",
+            image: mock1
         }
+
     ]
 }
